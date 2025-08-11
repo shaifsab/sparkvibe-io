@@ -1,0 +1,140 @@
+import { Product, Testimonial } from '@/types';
+
+export const products: Product[] = [
+  {
+    id: '1',
+    name: 'Creative Spark Kit',
+    description: 'Everything you need to ignite your creative process. Premium tools and resources.',
+    price: 99.99,
+    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop&crop=center',
+    category: 'Starter Kit',
+    inStock: true,
+  },
+  {
+    id: '2',
+    name: 'Design Mastery Course',
+    description: 'Comprehensive online course covering modern design principles and techniques.',
+    price: 199.99,
+    image: 'https://images.unsplash.com/photo-1561736778-92e52a7769ef?w=400&h=300&fit=crop&crop=center',
+    category: 'Education',
+    inStock: true,
+  },
+  {
+    id: '3',
+    name: 'Brand Identity Package',
+    description: 'Complete brand identity solution with logo design, color palette, and guidelines.',
+    price: 299.99,
+    image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=400&h=300&fit=crop&crop=center',
+    category: 'Branding',
+    inStock: true,
+  },
+  {
+    id: '4',
+    name: 'Digital Marketing Toolkit',
+    description: 'Essential tools and templates for successful digital marketing campaigns.',
+    price: 149.99,
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&crop=center',
+    category: 'Marketing',
+    inStock: false,
+  },
+  {
+    id: '5',
+    name: 'Creative Workshop Access',
+    description: 'Monthly subscription to exclusive creative workshops and live sessions.',
+    price: 49.99,
+    image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400&h=300&fit=crop&crop=center',
+    category: 'Subscription',
+    inStock: true,
+  },
+  {
+    id: '6',
+    name: 'Portfolio Template Bundle',
+    description: 'Professional portfolio templates for designers and creatives.',
+    price: 79.99,
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=center',
+    category: 'Templates',
+    inStock: true,
+  },
+];
+
+export const testimonials: Testimonial[] = [
+  {
+    id: '1',
+    name: 'Sarah Johnson',
+    role: 'Creative Director at PixelForge',
+    content: 'SparkVibe transformed our creative process completely. The tools and resources are exceptional, and our team\'s productivity has increased by 300%.',
+    avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b1c3?w=100&h=100&fit=crop&crop=face',
+    rating: 5,
+  },
+  {
+    id: '2',
+    name: 'Michael Chen',
+    role: 'Freelance Designer',
+    content: 'As a freelancer, I need reliable tools that deliver results. SparkVibe has been a game-changer for my business and client satisfaction.',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
+    rating: 5,
+  },
+  {
+    id: '3',
+    name: 'Emily Rodriguez',
+    role: 'Marketing Manager at InnovateCorp',
+    content: 'The brand identity package helped us establish a strong visual presence. Our brand recognition has improved significantly since using SparkVibe.',
+    avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face',
+    rating: 5,
+  },
+  {
+    id: '4',
+    name: 'David Thompson',
+    role: 'Startup Founder',
+    content: 'SparkVibe provided everything we needed to launch our brand. The creative workshops were particularly valuable for our team development.',
+    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face',
+    rating: 4,
+  },
+  {
+    id: '5',
+    name: 'Lisa Park',
+    role: 'Art Director',
+    content: 'The quality of resources and the community support are outstanding. SparkVibe has become an essential part of our creative toolkit.',
+    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face',
+    rating: 5,
+  },
+];
+
+export const features = [
+  {
+    id: '1',
+    title: 'Creative Tools',
+    description: 'Professional-grade tools designed specifically for creative professionals.',
+    icon: '🎨',
+  },
+  {
+    id: '2',
+    title: 'Expert Support',
+    description: '24/7 support from industry experts who understand your creative challenges.',
+    icon: '🚀',
+  },
+  {
+    id: '3',
+    title: 'Community Access',
+    description: 'Connect with a vibrant community of creatives and share your work.',
+    icon: '👥',
+  },
+  {
+    id: '4',
+    title: 'Regular Updates',
+    description: 'Continuously updated content and features to keep you ahead of trends.',
+    icon: '⚡',
+  },
+  {
+    id: '5',
+    title: 'Cloud Storage',
+    description: 'Secure cloud storage for all your creative assets and projects.',
+    icon: '☁️',
+  },
+  {
+    id: '6',
+    title: 'Mobile Access',
+    description: 'Access your creative tools and resources from any device, anywhere.',
+    icon: '📱',
+  },
+];
